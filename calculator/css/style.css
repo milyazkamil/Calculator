@@ -78,12 +78,21 @@ button:hover {
     margin-right: 5px;
 }
 
-.zero {
+#number0 {
     width: 140px;
 }
 
-.equal {
+#equal {
     height: 130px;
     background-color: rgb(60, 158, 233, 0.5);
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+    max-height: 35px;
+}
